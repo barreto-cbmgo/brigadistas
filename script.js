@@ -1,4 +1,3 @@
-// Function to load the rules from JSON and populate the select fields
 function loadOptions() {
   fetch('regras.json')
     .then(response => response.json())
@@ -43,7 +42,6 @@ function loadOptions() {
     });
 }
 
-// Function to calculate the number of brigadistas
 function calcularBrigadistas() {
   fetch('regras.json')
     .then(response => response.json())
@@ -71,11 +69,21 @@ function calcularBrigadistas() {
       } else if (populacao <= 10) {
         brigadistas = regra.populacao_9_ate_10;
       } else {
-        const adicional = Math.ceil((populacao - 10) / regra.populacao_acima_de_10.a_cada);
-        brigadistas = regra.populacao_acima_de_10.base + adicional * regra.populacao_acima_de_10.incremento;
+        // If the rule is a string, show it directly as the result
+        if (typeof regra.populacao_acima_de_10 === 'string') {
+          brigadistas = regra.populacao_acima_de_10;
+        } else {
+          const adicional = Math.ceil((populacao - 10) / regra.populacao_acima_de_10.a_cada);
+          brigadistas = regra.populacao_acima_de_10.base + adicional * regra.populacao_acima_de_10.incremento;
+        }
       }
 
-      document.getElementById('resultado').innerText = `Número de brigadistas necessários: ${brigadistas}`;
+      // If the result is a string (e.g., "ISENTO" or "80% dos funcionários"), display it directly
+      if (typeof brigadistas === 'string') {
+        document.getElementById('resultado').innerText = `Resultado: ${brigadistas}`;
+      } else {
+        document.getElementById('resultado').innerText = `Número de brigadistas necessários: ${brigadistas}`;
+      }
     })
     .catch(error => {
       console.error('Erro ao carregar as regras:', error);
