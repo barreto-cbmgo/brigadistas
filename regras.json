@@ -1,4 +1,4 @@
-{"A-1": {
+{"A-1 Habitação unifamiliar": {
     "risco_baixo": {
       "populacao_ate_2": "ISENTO",
       "populacao_3_ate_4": "ISENTO",
@@ -8,7 +8,7 @@
       "populacao_acima_de_10": "ISENTO"
     }
   },
-  "A-2": {
+  "A-2 Habitação multifamiliar": {
     "risco_baixo": {
       "populacao_ate_2": "80% dos funcionários da edificação",
       "populacao_3_ate_4": "80% dos funcionários da edificação",
@@ -18,7 +18,7 @@
       "populacao_acima_de_10": "80% dos funcionários da edificação"
     }
   },
-  "A-3": {
+  "A-3 Habitação coletiva": {
     "risco_baixo": {
       "populacao_ate_2": 1,
       "populacao_3_ate_4": 2,
@@ -44,7 +44,7 @@
       }
     }
   },
-  "C-1": {
+  "C-1 Comércio": {
     "risco_baixo": {
       "populacao_ate_2": 1,
       "populacao_3_ate_4": 2,
@@ -58,7 +58,7 @@
       }
     }
   },
-  "C-2": {
+  "C-2 Comércio": {
     "risco_medio": {
       "populacao_ate_2": 1,
       "populacao_3_ate_4": 2,
@@ -84,7 +84,7 @@
       }
     }
   },
-  "C-3": {
+  "C-3 Shopping Centers": {
     "risco_medio": {
       "populacao_ate_2": 2,
       "populacao_3_ate_4": 4,
