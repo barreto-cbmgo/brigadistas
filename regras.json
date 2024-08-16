@@ -1,4 +1,49 @@
-{
+{"A-1": {
+    "risco_baixo": {
+      "populacao_ate_2": "ISENTO",
+      "populacao_3_ate_4": "ISENTO",
+      "populacao_5_ate_6": "ISENTO",
+      "populacao_7_ate_8": "ISENTO",
+      "populacao_9_ate_10": "ISENTO",
+      "populacao_acima_de_10": "ISENTO"
+    }
+  },
+  "A-2": {
+    "risco_baixo": {
+      "populacao_ate_2": "80% dos funcionários da edificação",
+      "populacao_3_ate_4": "80% dos funcionários da edificação",
+      "populacao_5_ate_6": "80% dos funcionários da edificação",
+      "populacao_7_ate_8": "80% dos funcionários da edificação",
+      "populacao_9_ate_10": "80% dos funcionários da edificação",
+      "populacao_acima_de_10": "80% dos funcionários da edificação"
+    }
+  },
+  "A-3": {
+    "risco_baixo": {
+      "populacao_ate_2": 1,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 4,
+      "populacao_acima_de_10": {
+        "base": 4,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    },
+    "risco_medio": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 5,
+      "populacao_acima_de_10": {
+        "base": 5,
+        "incremento": 1,
+        "a_cada": 15
+      }
+    }
+  },
   "C-1": {
     "risco_baixo": {
       "populacao_ate_2": 1,
