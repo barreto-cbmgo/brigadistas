@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Brigadistas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Calculadora de Brigadistas</h1>
+  <div class="form-group">
+    <label for="tipo-edificacao">Tipo de Edificação:</label>
+    <select id="tipo-edificacao"></select>
+  </div>
+  <div class="form-group">
+    <label for="risco">Nível de Risco:</label>
+    <select id="risco"></select>
+  </div>
+  <div class="form-group">
+    <label for="populacao">População Fixa:</label>
+    <input type="number" id="populacao" placeholder="Número de pessoas">
+  </div>
+  <button onclick="calcularBrigadistas()">Calcular</button>
+
+  <div class="result" id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
