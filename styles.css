@@ -24,6 +24,12 @@ h1 {
   color: #333333;
   margin-bottom: 20px;
 }
+p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
 
 .form-group {
   margin-bottom: 15px;
