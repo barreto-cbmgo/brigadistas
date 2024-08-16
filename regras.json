@@ -255,5 +255,154 @@
       "populacao_acima_de_10": "80% dos funcionários da edificação"
     }
   }
-,
+,"F-1": {
+    "risco_baixo": {
+      "populacao_ate_2": 1,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 4,
+      "populacao_acima_de_10": {
+        "base": 4,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    },
+    "risco_alto": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 5,
+      "populacao_acima_de_10": {
+        "base": 5,
+        "incremento": 1,
+        "a_cada": 10
+      }
+    }
+  },
+  "F-3": {
+    "risco_baixo": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 3,
+      "populacao_5_ate_6": 4,
+      "populacao_7_ate_8": 5,
+      "populacao_9_ate_10": 6,
+      "populacao_acima_de_10": {
+        "base": 6,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    }
+  },
+  "F-4": {
+    "risco_baixo": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 3,
+      "populacao_5_ate_6": 4,
+      "populacao_7_ate_8": 5,
+      "populacao_9_ate_10": 6,
+      "populacao_acima_de_10": {
+        "base": 6,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    }
+  },
+  "F-5": {
+    "risco_medio": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 3,
+      "populacao_5_ate_6": 4,
+      "populacao_7_ate_8": 5,
+      "populacao_9_ate_10": 6,
+      "populacao_acima_de_10": {
+        "base": 6,
+        "incremento": 1,
+        "a_cada": 15
+      }
+    }
+  },
+  "F-6": {
+    "risco_medio": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 3,
+      "populacao_5_ate_6": 4,
+      "populacao_7_ate_8": 5,
+      "populacao_9_ate_10": 6,
+      "populacao_acima_de_10": {
+        "base": 6,
+        "incremento": 1,
+        "a_cada": 15
+      }
+    }
+  },
+  "F-8": {
+    "risco_baixo": {
+      "populacao_ate_2": 1,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 4,
+      "populacao_acima_de_10": {
+        "base": 4,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    }
+  },
+  "F-9": {
+    "risco_medio": {
+      "populacao_ate_2": 1,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 4,
+      "populacao_acima_de_10": {
+        "base": 4,
+        "incremento": 1,
+        "a_cada": 20
+      }
+    }
+  },
+  "F-10": {
+    "risco_baixo": {
+      "populacao_ate_2": 1,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 4,
+      "populacao_acima_de_10": {
+        "base": 4,
+        "incremento": 1,
+        "a_cada": 15
+      }
+    },
+    "risco_medio": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 2,
+      "populacao_5_ate_6": 3,
+      "populacao_7_ate_8": 4,
+      "populacao_9_ate_10": 5,
+      "populacao_acima_de_10": {
+        "base": 5,
+        "incremento": 1,
+        "a_cada": 10
+      }
+    }
+  },
+  "F-11": {
+    "risco_medio": {
+      "populacao_ate_2": 2,
+      "populacao_3_ate_4": 3,
+      "populacao_5_ate_6": 4,
+      "populacao_7_ate_8": 5,
+      "populacao_9_ate_10": 6,
+      "populacao_acima_de_10": {
+        "base": 6,
+        "incremento": 1,
+        "a_cada": 15
+      }
+    }
+  }
 }
